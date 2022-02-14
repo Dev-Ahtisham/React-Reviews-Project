@@ -1,12 +1,13 @@
 import React from "react";
-import {FaSearch} from 'react-icons/fa';
+import Review from "./Review";
+import "./index.css";
 
 function App() {
   return (
-    <>
-      <h1>Hello World</h1>
-      <FaSearch />
-    </>
+    <div className="container">
+      <h2>React Reviews</h2>
+      <Review />
+    </div>
   );
 }
 
